@@ -4,5 +4,6 @@ class StoreAdminController < ApplicationController
   end
   
   def orders
+    render "order_administration"
   end
 end
